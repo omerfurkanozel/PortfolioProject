@@ -7,9 +7,9 @@ function SwitchButton(props) {
   const [state, setState] = useState(true);
 
   return (
-    <Form>
+    <Form >
       <FormGroup  switch>
-        <Input  type="switch" role="switch" />
+        <Input color='danger' type="switch" role="switch" />
         <Label  check>Dark Mode</Label>
       </FormGroup>
       
